@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    width: 512px;
+    height: 512px;
+    border: 1px solid #000;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#buttons {
+    width: 512px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+button {
+    font-size: 1.5em;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 5px;
+    margin: 10px;
+}
